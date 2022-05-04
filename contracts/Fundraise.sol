@@ -19,8 +19,12 @@ contract Fundraise is DividendERC1155 {
         // Sends funds and locks them until fundraise period is over
     }
 
-    function getRefund() public {
-        // if fundraise is uncessful, returns funds
+    function getSingleRefund(uint256 listingId) public {
+        // if fundraise is unsuccessful, returns funds
+    }
+
+    function refundAll() public {
+        // refunds from each unsuccessful fundraise
     }
 
     function closeRound() public {
